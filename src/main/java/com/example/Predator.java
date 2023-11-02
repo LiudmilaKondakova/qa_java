@@ -1,7 +1,9 @@
 package com.example;
 
+import java.util.List;
+
 public interface Predator {
 
-    void eatMeat() throws Exception;
+    List<String> eatMeat() throws Exception;
 
 }
